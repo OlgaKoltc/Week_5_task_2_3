@@ -41,13 +41,15 @@ aside {
     border: 1px solid;
     width: 30vw;
 }
-footer {
-    display: flex;
-    border: 1px solid;
-    justify-content: space-around;
-    padding: 10px;
-}
 .foot {
     border: 1px solid red;
     flex: 0 0 content;
+}
+@media screen and (min-width: 767px) {
+    footer {
+        display: flex;
+        border: 1px solid;
+        justify-content: space-around;
+        padding: 10px
+}
 }
